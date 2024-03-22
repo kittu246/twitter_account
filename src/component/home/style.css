@@ -96,41 +96,27 @@ footer a {
   text-decoration: none;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
+  footer a {
+    font-size: 8px;
+  }
 
+  .homeRight {
+    gap: 10px;
+  }
 
-    footer a {
-        
-        font-size: 8px;
-      
-      
-        
-      }
+  .homeRight h1 {
+    font-size: 40px;
+  }
+  .homeRight h2 {
+    font-size: 20px;
+  }
 
-      .homeRight {
-       
-        gap: 10px;
-       
-      }
-
-      .homeRight h1 {
-        font-size: 40px;
-      }
-      .homeRight h2 {
-        font-size: 20px;
-      }
-
-      
-.homeRight {
-    
+  .homeRight {
     padding-left: 1rem;
   }
 
   .homeRight button {
-   
-    font-size: .8rem;
-    
+    font-size: 0.8rem;
   }
-  
-    
 }
