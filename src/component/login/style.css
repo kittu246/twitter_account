@@ -4,38 +4,38 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
 
-  gap: 15px;
-  width: 30vw;
-  border-radius: 10px;
+  gap: .5rem;
+  width: 40vw;
+  border-radius: .6rem;
   background-color: white;
 }
 
 .userAuth img {
-  width: 50px;
-  height: 41px;
+  width: 3rem;
+  height: 2.5rem;
 }
 
 .userAuth h1 {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 2.6rem;
 }
 
 .userAuth input,
 .userAuth button {
-  height: 40px;
-  padding: 10px;
-  border: 1px solid lightgray;
+  height: 2.5rem;
+  padding: .6rem;
+  border: .06rem solid lightgray;
 }
 .userAuth input:focus {
   border-color: #1da1f2;
 }
 
 .userAuth button {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   color: white;
   background-color: #1da1f2;
 }
@@ -48,3 +48,13 @@
   text-decoration: none;
   color: #1da1f2;
 }
+
+@media screen and (max-Width:767px ){
+
+  .userAuth {
+    width: 50vw;
+  }
+  
+}
+
+
