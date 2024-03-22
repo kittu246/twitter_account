@@ -1,0 +1,50 @@
+.userAuth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+  width: 30vw;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.userAuth img {
+  width: 50px;
+  height: 41px;
+}
+
+.userAuth h1 {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.userAuth input,
+.userAuth button {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.userAuth input:focus {
+  border-color: #1da1f2;
+}
+
+.userAuth button {
+  border-radius: 20px;
+  color: white;
+  background-color: #1da1f2;
+}
+.userAuthLink {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userAuthLink a {
+  text-decoration: none;
+  color: #1da1f2;
+}
